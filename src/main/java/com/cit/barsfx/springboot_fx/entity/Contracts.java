@@ -8,6 +8,7 @@ import java.util.Date;
 
 //Сущность аннотация Entity указывает что это в базе данных
 @Entity
+@Table(name = "contracts")
 public class Contracts{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
